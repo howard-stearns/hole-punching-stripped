@@ -3,6 +3,9 @@
     "version": "0.0.1",
     "description": "Dead-simple tcp hole-punching test, using git@github.com:SamDecrock/node-tcp-hole-punching.git",
     "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
     "author": "",
     "license": "MIT"
 }
