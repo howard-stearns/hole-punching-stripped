@@ -7,7 +7,7 @@ var server = require('net').createServer(function (socket) {
         if (data === HANDSHAKE) {
             console.log('> Connect to this public endpoint with clientB:', socket.remoteAddress + ':' + socket.remotePort);
         } else {
-            console.log('got data from', socket.remoteAddress + ':' + socket.remotePort, data.length 'characters:', data);
+            console.log('got data from', socket.remoteAddress + ':' + socket.remotePort, data.length, 'characters:', data);
         }
     });
 }).listen(process.env.PORT || 5000, function (err) {
